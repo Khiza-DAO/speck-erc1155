@@ -1,0 +1,18 @@
+{
+    "name": "Ativo 1",
+    "description": "Ativo 1 comprado na speck",
+    "external_url": "https://speck.finance/1",
+    "image": "https://speck.finance/1.png",
+    "attributes": [
+        {
+            "display_type": "date",
+            "trait_type": "buy_date",
+            "value": 1546360800
+        },
+        {
+            "display_type": "date",
+            "trait_type": "expiration_date",
+            "value": 1546360800
+        }
+    ]
+}
