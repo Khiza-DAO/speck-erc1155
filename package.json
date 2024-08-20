@@ -3,6 +3,7 @@
   "scripts": {
     "compile": "hardhat compile",
     "deploy": "hardhat ignition deploy ./ignition/modules/SpeckERC1155.ts",
+    "mint": "hardhat run ./scripts/mint.ts",
     "test": "hardhat test"
   },
   "devDependencies": {
@@ -10,6 +11,8 @@
     "hardhat": "^2.22.8"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.2"
+    "@nomicfoundation/hardhat-viem": "^2.0.3",
+    "@openzeppelin/contracts": "^5.0.2",
+    "viem": "^2.19.2"
   }
 }

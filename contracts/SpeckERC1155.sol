@@ -7,8 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract SpeckERC1155 is Ownable, ERC1155Pausable, ERC1155Burnable {
     uint256 public immutable expiresAt;
-
-    string public immutable name;
+    string public name;
 
     constructor(
         address _initialOwner,
